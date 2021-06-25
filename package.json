@@ -38,54 +38,7 @@
     "socket.io": "^2.2.0",
     "time-ago": "0.2.1"
   },
-  "description": "A social media platform written in Node.js (the 5th time)",
-  "main": "./bin/www",
-  "keywords": [
-    "social",
-    "media",
-    "nodejs",
-    "express",
-    "mongodb",
-    "mongoose",
-    "platform"
-  ],
-  "build": {
-    "publish": [
-      {
-        "provider": "github",
-        "owner": "DivySrivastava",
-        "repo": "spruce"
-      }
-    ],
-    "appId": "com.divysrivastava.desktop.spruce",
-    "copyright": "Divy Srivastava 2019",
-    "mac": {
-      "target": [
-        "dmg",
-        "zip"
-      ],
-      "publish": "github",
-      "category": "public.app-category.social-networking"
-    },
-    "win": {
-      "target": [
-        "nsis",
-        "portable"
-      ],
-      "publish": "github",
-      "publisherName": "DivySrivastava"
-    },
-    "linux": {
-      "target": [
-        "AppImage",
-        "zip",
-        "deb"
-      ],
-      "publish": "github",
-      "maintainer": "Divy Srivastava <dj.srivastava23@gmail.com>"
-    }
-  },
-  "author": "Dan-Divy <dj.srivastava23@gmail.com,dan@dancodes.online>",
+  "author": "",
   "license": "MIT",
   "collective": {
     "type": "opencollective",
