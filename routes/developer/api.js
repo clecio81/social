@@ -25,7 +25,7 @@ router.get('/verify/:key', function(req, res, next) {
                 Keys
                 .findOne({apiKey: req.params.key})
                 .exec((err, success) => {
-                    if(success) return res.send({error:"Invalid API KEY"});
+                    if(!success) return res.send({error:"Invalid API KEY"});
                     var newKeySchema = new Keys({
                         apiKey:req.params.key,
                         invokes:0,
