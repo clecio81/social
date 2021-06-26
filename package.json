@@ -40,11 +40,5 @@
   },
   "author": "",
   "license": "MIT",
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/dan_divy"
-  },
-  "optionalDependencies": {
-    "usage": "^0.7.1"
-  }
+ 
 }
